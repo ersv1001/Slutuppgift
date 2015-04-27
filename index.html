@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta charset="utf-8">
 	<title> Förstasida </title>
 	<link rel="stylesheet" href="nivo-slider.css" type="text/css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
@@ -8,40 +9,46 @@
 	<style>
 	body {
 		background-color: black;
+		padding: 20px;
 	}
 	#container {
 		max-width: 800px;
-	margin: auto;
+		margin: auto;
 	}
 	.atsidan {
 		margin-right: 96px;
 	}
-	
+	.rad1 {
+		padding-top: 20px;
+	}
+	.under:hover {
+		width: 198px;
+		height: 98px;
+		border: 1px solid white;
+	}
 	</style>
 	</head>
 	<body>
 	<div id="container">
 	<div id="slider" class="nivoSlider">
-		<img src="bilder/crowd_1.jpg" alt="" title="E-Sport historia" />
-		<img src="bilder/cs_1.jpg" alt="" title="Counter-Strike" />/>
-		<img src="bilder/dota_1.jpg" alt="" title="Defense of the Ancients" />/>
-		<img src="bilder/hs_1.jpg" alt="" title="Hearthstone" />/>
-		<img src="bilder/lol_1.jpg" alt=""	title="League of Legends" />/>
-		<img src="bilder/sc_1.jpg" alt="" title="Starcraft" />/>
+		<img src="bilder/crowd_1.jpg" alt="" title="E-sport historia" />
+		<img src="bilder/cs_1.jpg" alt="" title="Counter-Strike" />
+		<img src="bilder/dota_1.jpg" alt="" title="Defense of the Ancients" />
+		<img src="bilder/hs_1.jpg" alt="" title="Hearthstone" />
+		<img src="bilder/lol_1.jpg" alt=""	title="League of Legends" />
+		<img src="bilder/sc_1.jpg" alt="" title="Starcraft" />
 		
 	</div>
-		<div id="htmlcaption" class="nivo-html-caption">
-			<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-		</div>
+	 title="INSERT TEXTBOX TEXT HERE">INSERT DISPLAYED TEXT HERE</span>
 	<div class="rad1">
-	<a class="atsidan" href "spel.html"><img src="bilder/crowd_2.jpg" alt ""/></a>  
-	<a class="atsidan" href "spel.html"><img src="bilder/cs_2.jpg" alt ""/></a> 
-	<a href "spel.html"><img src="bilder/dota_2.jpg" alt ""/></a> 
+	<a class="atsidan" href "spel.html"><span> <img class="under" src="bilder/crowd_2.jpg" alt "" /></span></a>  
+	<a class="atsidan" href "spel.html"><img class="under" src="bilder/cs_2.jpg" alt ""/></a> 
+	<a href "spel.html"><img class="under" src="bilder/dota_2.jpg" alt ""/></a> 
 	</div>
 	<div class="rad2">
-	<a class="atsidan" href "spel.html"><img src="bilder/hs_2.jpg" alt ""/></a>
-	<a class="atsidan" href "spel.html"><img src="bilder/lol_2.jpg" alt ""/></a>
-	<a href "spel.html"><img src="bilder/sc_2.jpg" alt ""/></a>
+	<a class="atsidan" href "spel.html"><img class="under" src="bilder/hs_2.jpg" alt ""/></a>
+	<a class="atsidan" href "spel.html"><img class="under" src="bilder/lol_2.jpg" alt ""/></a>
+	<a href "spel.html"><img class="under" src="bilder/sc_2.jpg" alt ""/></a>
 	</div>
 	</div>
 	
@@ -50,8 +57,30 @@
 	
 	<script type="text/javascript">
 	$(window).load(function() {
-    $('#slider').nivoSlider();
-	});
-	</script>
+    $('#slider').nivoSlider({
+	effect: 'fade',                 // Specify sets like: 'fold,fade,sliceDown'
+    slices: 15,                     // For slice animations
+    boxCols: 8,                     // For box animations
+    boxRows: 4,                     // For box animations
+    animSpeed: 500,                 // Slide transition speed
+    pauseTime: 3000,                 // How long each slide will show
+    startSlide: 0,                     // Set starting Slide (0 index)
+    directionNav: false,             // Next & Prev navigation
+    controlNav: false,                 // 1,2,3... navigation
+    controlNavThumbs: false,         // Use thumbnails for Control Nav
+    pauseOnHover: false,             // Stop animation while hovering
+    manualAdvance: false,             // Force manual transitions
+    prevText: 'Prev',                 // Prev directionNav text
+    nextText: 'Next',                 // Next directionNav text
+    randomStart: false,             // Start on a random slide
+    beforeChange: function(){},     // Triggers before a slide transition
+    afterChange: function(){},         // Triggers after a slide transition
+    slideshowEnd: function(){},     // Triggers after all slides have been shown
+    lastSlide: function(){},         // Triggers when last slide is shown
+    afterLoad: function(){}         // Triggers when slider has loaded
+ });
+ });
+</script>
 	</body>
+	
 </html>
