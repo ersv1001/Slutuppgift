@@ -27,14 +27,14 @@ Spelsidor
 
 ***********************************************************/
 .twitter {
-		position: fixed;
-		top: 5px;
-		right: 20px;
+		float: right;
 	}
 #text {
 	width: 800px;
-	position: absolute;
-	left: 240px;
+	margin-left: 240px;
+}
+header{
+	text-align: center;
 	}
 nav{
 	float: left;
