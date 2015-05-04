@@ -35,7 +35,7 @@ Spelsidor
 	border: 3px solid red;
 /*	padding: 0px 100px 10px;*/
 	margin-top: 30px;
-  background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
 	
 }
 #text p{
@@ -68,11 +68,26 @@ ul{
 	padding: 5,5,5,5;
 	list-style-type: none;
 }
-
-
-
-/*******************************************************
-
-Historia
-
-********************************************************/
++/*********************************************************
++
++Historia
++
++*********************************************************/
+table {
+	border: 1px solid #47D8F5;  /* En pixel för mycket åt höger*/
+	background: #fff;
+	width: 55%;
+	border-radius: 5px;
+	border-spacing: 0;
+	}
+td {
+	border-top: 1px solid #47D8F5;
+	border-right: 1px solid #47D8F5;
+}
+th {
+	background-color: #47D8F5;
+}
+th,td {
+	padding: 10px 10px 2px;
+	text-align: left;
+	}
