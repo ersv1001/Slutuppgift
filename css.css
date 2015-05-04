@@ -1,0 +1,26 @@
+/***************************************************
+
+Förstasidan
+
+***************************************************/
+body {
+		background-color: black;
+		padding: 20px;
+	}
+	#container {
+		max-width: 812px;
+		margin: auto;
+	}
+	.atsidan {
+	}
+	.rad1 {
+		padding-top: 20px;
+	}
+	.under:hover {
+		width: 198px;
+		height: 98px;
+		border: 1px solid white;
+	}
+	script {
+		
+	}
