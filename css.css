@@ -3,12 +3,12 @@
 Förstasidan
 
 ***************************************************/
-body .firstpage {
+	.firstpage {
 		background-color: black;
 		padding: 20px;
 	}
 	#container {
-		max-width: 812px;
+		max-width: 816px;
 		margin: auto;
 	}
 	.atsidan {
