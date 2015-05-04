@@ -31,6 +31,12 @@ Spelsidor
 		top: 5px;
 		right: 20px;
 	}
-#wrapper {
-		width: 800px;
+#text {
+	width: 800px;
+	position: absolute;
+	left: 240px;
 	}
+nav{
+	float: left;
+}
+
