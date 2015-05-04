@@ -27,9 +27,8 @@ Spelsidor
 
 ***********************************************************/
 .twitter {
-		float: right;
-	max-width: 200px;
-	}
+	float: right;
+}
 #text {
 	width: 800px;
 	margin: auto;
@@ -61,7 +60,7 @@ a{
 a: hover{
 	text-decoration: underline;
 }
-body {
+body.subpages {
 	background-color: black
 }
 ul{
