@@ -3,7 +3,7 @@
 Förstasidan
 
 ***************************************************/
-body {
+body .firstpage {
 		background-color: black;
 		padding: 20px;
 	}
@@ -21,6 +21,16 @@ body {
 		height: 98px;
 		border: 1px solid white;
 	}
-	script {
-		
+/***********************************************************
+
+Spelsidor
+
+***********************************************************/
+.twitter {
+		position: fixed;
+		top: 5px;
+		right: 20px;
+	}
+#wrapper {
+		width: 800px;
 	}
