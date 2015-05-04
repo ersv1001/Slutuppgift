@@ -8,7 +8,7 @@ Förstasidan
 		padding: 20px;
 	}
 	#container {
-		max-width: 812px;
+		max-width: 816px;
 		margin: auto;
 	}
 	.atsidan {
@@ -17,8 +17,8 @@ Förstasidan
 		padding-top: 20px;
 	}
 	.under:hover {
-		width: 198px;		/*För att bevara storleken på bilden när bordern läggs till*/
-		height: 98px;				
+		width: 198px;
+		height: 98px;
 		border: 1px solid white;
 	}
 /***********************************************************
@@ -32,40 +32,47 @@ Spelsidor
 #text {
 	width: 800px;
 	margin: auto;
-	border: 10px dotted red;
-	padding: 0px 100px 10px;
+	border: 3px solid red;
+/*	padding: 0px 100px 10px;*/
 	margin-top: 30px;
   background-color: rgba(0,0,0,0.7);
+	
+}
+#text p{
+	color: white;
 }
 header{
+	color: white;
 	text-align: center;
-	}
-nav{
-	float: left;
-	padding-right: 20px;
 }
 
-/*********************************************************
+nav {
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	border: 3px solid red;
+	border-radius: 5%
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a: hover{
+	text-decoration: underline;
+	color: blue;
+}
+body {
+	background-color: black
+}
+ul{
+	padding: 5,5,5,5;
+	list-style-type: none;
+}
+
+
+
+/*******************************************************
 
 Historia
 
-*********************************************************/
-table {
-	border: 1px solid #47D8F5;  /* En pixel för mycket åt höger*/
-	background: #fff;
-	width: 55%;
-	border-radius: 5px;
-	border-spacing: 0;
-	}
-td {
-	border-top: 1px solid #47D8F5;
-	border-right: 1px solid #47D8F5;
-}
-th {
-	background-color: #47D8F5;
-}
-th,td {
-	padding: 10px 10px 2px;
-	text-align: left;
-	}
-
+********************************************************/
