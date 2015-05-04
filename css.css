@@ -28,6 +28,7 @@ Spelsidor
 ***********************************************************/
 .twitter {
 		float: right;
+	max-width: 200px;
 	}
 #text {
 	width: 800px;
@@ -59,7 +60,6 @@ a{
 }
 a: hover{
 	text-decoration: underline;
-	color: blue;
 }
 body {
 	background-color: black
@@ -67,6 +67,7 @@ body {
 ul{
 	padding: 5,5,5,5;
 	list-style-type: none;
+	padding: 0px 10px;
 }
 +/*********************************************************
 +
