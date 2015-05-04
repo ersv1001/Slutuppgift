@@ -8,7 +8,7 @@ Förstasidan
 		padding: 20px;
 	}
 	#container {
-		max-width: 816px;
+		max-width: 812px;
 		margin: auto;
 	}
 	.atsidan {
@@ -17,8 +17,8 @@ Förstasidan
 		padding-top: 20px;
 	}
 	.under:hover {
-		width: 198px;
-		height: 98px;
+		width: 198px;		/*För att bevara storleken på bilden när bordern läggs till*/
+		height: 98px;				
 		border: 1px solid white;
 	}
 /***********************************************************
@@ -42,5 +42,30 @@ header{
 	}
 nav{
 	float: left;
+	padding-right: 20px;
 }
+
+/*********************************************************
+
+Historia
+
+*********************************************************/
+table {
+	border: 1px solid #47D8F5;  /* En pixel för mycket åt höger*/
+	background: #fff;
+	width: 55%;
+	border-radius: 5px;
+	border-spacing: 0;
+	}
+td {
+	border-top: 1px solid #47D8F5;
+	border-right: 1px solid #47D8F5;
+}
+th {
+	background-color: #47D8F5;
+}
+th,td {
+	padding: 10px 10px 2px;
+	text-align: left;
+	}
 
