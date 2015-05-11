@@ -43,31 +43,31 @@ header{
 	color: white;
 	text-align: center;
 }
-
-.subpage nav {
-	text-decoration: none;
-	float: left;
-	background-color: black;
-	border: 3px solid yellow;
-	border-radius: 5%;
-	width: 215;
-	padding-right: 10px
-}
-a{
-	text-decoration: none;
-	color: white;
-}
-a:hover{
-	text-decoration: underline;
-	color: blue;
-}
 body {
 	background-color: black
 }
-ul{
-list-style-type: none;
+.subpage a{
+	text-decoration: none;
+	color: white;
 }
+.subpage ul{
+	list-style:none;
+}
+.subpage ul li{
+	display:block;
+	width:300px;
+	height:28px;
+	background-color:#333; 
+	border-left:5px solid #222; 
+	border-right:5px solid #222; 
+	padding-left:10px;
+	text-decoration:none;
+	color:#bfe1f1;
+}
+.subpage ul li a:hover{
 
+	transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; 
+}
 
 
 /*******************************************************
