@@ -1,3 +1,4 @@
+
 /***************************************************
 
 Förstasidan
@@ -59,43 +60,44 @@ Spelsidor
 
 ***********************************************************/
 .twitter {
-	float: right;
-}
+		position: fixed;
+		right: 15px;
+	}
 #text {
 	width: 800px;
 	margin: auto;
 	border: 3px solid red;
 /*	padding: 0px 100px 10px;*/
 	margin-top: 30px;
-	background-color: rgba(0,0,0,0.7);
-	
-}
-#text p{
-	color: white;
+	color: white;	
 }
 header{
 	color: white;
 	text-align: center;
 }
 
-nav {
+.subpage nav {
 	text-decoration: none;
 	float: left;
-	background-color: white;
-	border: 3px solid red;
-	border-radius: 5%
+	background-color: black;
+	border: 3px solid yellow;
+	border-radius: 5%;
+	width: 215;
+	padding-right: 10px
 }
 .subpage a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
-a: hover{
+a:hover{
 	text-decoration: underline;
+	color: blue;
 }
-body.subpages {
+body {
 	background-color: black
 }
 ul{
+<<<<<<< HEAD
 	padding: 5,5,5,5;
 	list-style-type: none;
 	padding: 0px 10px;
@@ -149,3 +151,15 @@ th,td {
 	text-align: left;
 	}
 
+=======
+list-style-type: none;
+}
+
+
+
+/*******************************************************
+
+Historia
+
+********************************************************/
+>>>>>>> origin/master
