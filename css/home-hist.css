@@ -98,7 +98,7 @@ Förstasidan
 +
 +*********************************************************/
 .historia {
-	background: url(http://s.cdpn.io/3/dark_wall_@2X.png);
+	background: url(..//subpagebilder//bakhist.png);
 	max-width: 816px;
 	margin: auto;
 	padding-top: 20px;
@@ -138,7 +138,7 @@ Förstasidan
 table {
 	margin: auto;
 	border: 1px solid #403D38;  /* En pixel för mycket åt höger*/
-	background-image: url("subpagebilder//pengar3.png");
+	background-image: url("..//subpagebilder//pengar3.png");
 	width: 776px;
 	border-radius: 5px;
 	border-spacing: 0;
