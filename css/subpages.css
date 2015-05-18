@@ -3,25 +3,72 @@
 Spelsidor
 
 ***********************************************************/
+body.subpage {
+	background-image:  url("../subpagebilder/spel-bak-g.jpg");
+	background-size: cover;
+}
 .twitter {
-		position: fixed;
-		right: 15px;
+		float: right;
 	}
+/*
+
+---TEXT---
+
+*/
 #text {
-	width: 70%;
+	width: 75%;
 	margin: auto;
-	border: 3px solid green;
 	margin-top: 30px;
 	color: white;	
-}
-header{
-	color: white;
-	text-align: center;
-	font-family: 'Monda'
 }
 #text p{
 	padding-left: 5px;
 }
+
+.subpage header{
+	color: white;
+	text-align: center;
+	font-family: 'Monda';	
+}
+.subpage img{
+	width: 35%;
+	float: right;
+	border: 2px solid black;
+	border-radius: 2%;
+	margin-right: 10px
+	
+}
+
+/*
+
+---LISTOR---
+
+*/
+
+/*fancy copy-paste list*/
+.subpage ul li{
+	display:block;
+	height:28px;
+	padding-left:10px;
+	text-decoration:none;
+	color:#bfe1f1;
+	list-style-type: none;
+	}
+/*copy-paste stops here*/
+.subpage ul{
+	background-color:#333; 
+	border-left:5px solid #222; 
+	border-right:10px solid #222; 
+}
+.subpage ul li:first-of-type{
+	padding-top: 5px;
+}
+
+.subpage ul{
+	list-style-type: none;
+	padding: 0px 10px;
+}
+
 .subpage a{
 	text-decoration: none;
 	color: white;
@@ -29,33 +76,7 @@ header{
 .subpage ul{
 	list-style:none;
 }
-nav {
+.subpage nav {
 	position: absolute;
-}
-.subpage ul li{
-	display:block;
-	height:28px;
-	background-color:#333; 
-	border-left:5px solid #222; 
-	border-right:10px solid #222; 
-	padding-left:10px;
-	text-decoration:none;
-	color:#bfe1f1;
-	list-style-type: none;
-	}
-body.subpage {
-	background-color: black
-}
-ul{
-	list-style-type: none;
-	padding: 0px 10px;
-}
-
-.subpage ul li a:hover{
-	border: 1px solid black;
-}
-img{
-	width: 40%;
-	float: right;
-	padding-right: 10px
+	top: 95px;
 }
