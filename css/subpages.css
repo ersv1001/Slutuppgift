@@ -8,7 +8,7 @@ Spelsidor
 		right: 15px;
 	}
 #text {
-	width: 800px;
+	width: 70%;
 	margin: auto;
 	border: 3px solid red;
 /*	padding: 0px 100px 10px;*/
@@ -18,10 +18,10 @@ Spelsidor
 header{
 	color: white;
 	text-align: center;
+	font-family: 'Monda'
 }
-body {
-	background-color: black
-}
+
+	
 .subpage a{
 	text-decoration: none;
 	color: white;
@@ -29,28 +29,28 @@ body {
 .subpage ul{
 	list-style:none;
 }
+nav {
+	position: absolute;
+}
 .subpage ul li{
 	display:block;
-	width:300px;
 	height:28px;
 	background-color:#333; 
 	border-left:5px solid #222; 
-	border-right:5px solid #222; 
+	border-right:10px solid #222; 
 	padding-left:10px;
 	text-decoration:none;
 	color:#bfe1f1;
 	list-style-type: none;
 	}
-.subpage body {
+body.subpage {
 	background-color: black
 }
 ul{
-	padding: 5,5,5,5;
 	list-style-type: none;
 	padding: 0px 10px;
 }
 
 .subpage ul li a:hover{
-
-	transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; 
+	border: 1px solid black;
 }
