@@ -34,47 +34,8 @@ Förstasidan
     -6px 6px #808d93;
 		
 	}
-	footer {
-		padding-top: 20px;
-	}
-	.hexagoner {
-		float: left;
-	}
-	.hex {
-    float: left;
-    margin-left: 3px;
-    margin-bottom: -12px;
-	text-align: center;
-	font-size: 24px;
-	font-family: 'Roboto Condensed', sans-serif;
-	color: 5C0073;								/* byt färg? */
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Skugga eller inte? */
-	}
-	.hex .top {
-    width: 0;
-    border-bottom: 14px solid #808080;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-	}
-	.hex .middle {
-    width: 50px;
-	height: 29px;
-    background-color: #808080;
-	/*margin-bottom: 5px;		tuff effekt
-	margin-top: 5px; */
-	}
-	.hex .bottom {
-    width: 0;
-    border-top: 14px solid #808080;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-	}
-	.hex-row {
-    clear: left;
-	}
-	.hex-row.even {
-    margin-left: 26px;
-	}
+	
+
 	#container {
 		max-width: 816px;
 		margin: auto;
@@ -82,9 +43,12 @@ Förstasidan
 	.rad1 {
 		padding-top: 20px;
 	}
+	.rad2 {
+		padding-bottom: 20px;
+	}
 	.under:hover {
-		width: 198px;
-		height: 98px;
+		width: 200px;
+		height: 100px;
 		border: 1px solid white;
 	}
 	#slider {
@@ -92,6 +56,7 @@ Förstasidan
 		text-align: right;
 	}
 
+	
 /*********************************************************
 +
 +Historia
@@ -102,15 +67,15 @@ Förstasidan
 	max-width: 816px;
 	margin: auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
 }
 #histdiv {
 	background-color: rgba(0 , 0 , 0 , 0.5);
 	padding: 20px;
-	padding-bottom: 100px;
+	padding-bottom: 40px;
 	border: 4px solid black;
-}
-.historia  p, h1 , h3 {
-	color: white;
 }
 .ehistoria {
   width: 60%;
@@ -120,15 +85,10 @@ Förstasidan
   width: 40%;
   float:left;
 }
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-*, *:after, *:before {
-  box-sizing: border-box;
-}
-*, *:after, *:before {
+
+*, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .ehistoria {
@@ -138,15 +98,18 @@ Förstasidan
 table {
 	margin: auto;
 	border: 1px solid #403D38;  /* En pixel för mycket åt höger*/
-	background-image: url("..//subpagebilder//pengar3.png");
-	width: 776px;
+	background-image: url("..//subpagebilder//trofe.jpg");
+	width: 769px;
 	border-radius: 5px;
 	border-spacing: 0;
 	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 20px;
+	
 	}
 td {
 	/* border-top: 1px solid #403D38;  Inte säker på om jag vill ha med denna */
 	border-right: 1px solid #403D38;
+	color: black;
 }
 th {
 	background-color: #403D38;
@@ -156,4 +119,99 @@ th {
 th,td {
 	padding: 10px 10px 2px;
 	text-align: left;
+	}
+
+.historia nav {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid white;
+	
+}
+.historia ul {
+  overflow: auto;
+  list-style-type: none;
+}
+.historia li {
+  height: 22px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+.historia li:last-child {
+  border-right: none;
+}
+.historia li a {
+  text-decoration: none;
+  color: white;
+  font: 20px Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.historia li a:hover {
+  color: #666;
+}
+.hexagoner {
+		float: left;
+		padding-right: 20px;
+	}
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -12px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #808080;								/* byt färg? */
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Skugga eller inte? */
+	
+	}
+.hex .top {
+    width: 0;
+    border-bottom: 14px solid #808080;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+	}
+.hex .middle {
+    width: 50px;
+	height: 29px;
+    background-color: #808080;
+	/*margin-bottom: 5px;		tuff effekt
+	margin-top: 5px; */
+	}
+.hex .bottom {
+    width: 0;
+    border-top: 14px solid #808080;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+	}
+.hex-row {
+    clear: left;
+	}
+.hex-row.even {
+    margin-left: 26px;
+	}
+footer {
+		border-top: 1px solid white;
+		padding-top: 20px;
+	}
+footer  p {
+		margin-top: 0;
+		font-size: 13px;
+		
+	}
+footer h4 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 15px;		
+	}
+.om {
+		display: inline-block;
+	}
+.kontakt {
+		display: inline-block;
+		padding-left: 20px;
 	}
