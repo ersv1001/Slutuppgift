@@ -44,7 +44,13 @@ body.subpage {
 ---LISTOR---
 
 */
-
+@media min-width300px{
+	body{
+		background-color: red;
+	}
+		
+	}
+}
 /*fancy copy-paste list*/
 .subpage ul li{
 	display:block;
