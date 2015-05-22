@@ -47,7 +47,7 @@ Förstasidan
 		padding-bottom: 20px;
 	}
 	.under:hover {
-		width: 200px;
+		width: 200px;  /* Hindrar storleken från att förändras när man håller över bilderna */
 		height: 100px;
 		border: 1px solid white;
 	}
