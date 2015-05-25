@@ -244,7 +244,7 @@ th,td {
 	}
 /***********************************************************
 
-Spelsidor
+Subpages
 
 ***********************************************************/
 body.subpage {
@@ -260,7 +260,7 @@ body.subpage {
 
 */
 #text {
-	width: 75%;
+	width: 70%;
 	margin: auto;
 	margin-top: 30px;
 	padding-bottom: 30px;
@@ -324,7 +324,6 @@ body.subpage {
 .subpage nav {
 	float: left;
 	margin: 73px 0;
-	width: 13%
 }
 /*
 
