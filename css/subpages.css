@@ -45,13 +45,7 @@ body.subpage {
 ---LISTOR---
 
 */
-@media min-width300px{
-	body{
-		background-color: red;
-	}
-		
-	}
-}
+
 /*fancy copy-paste list*/
 .subpage ul li{
 	display:block;
@@ -86,28 +80,32 @@ body.subpage {
 .subpage nav {
 	float: left;
 	margin: 73px 0;
+	width: 13%
 }
 /*
 
 ---FOOTER---
 
 */
-footer {
+.subpage footer {
 		border-top: 1px solid white;
 		padding-top: 20px;
 		text-align: right;
 		padding-right: 10px;
 	}
-footer  p {
+.subpage footer  p {
 		margin-top: 0;
 		font-size: 13px;
 		
 	}
-footer h4 {
+.subpage footer h4 {
 		margin-top: 0;
 		margin-bottom: 0;
 		font-size: 15px;		
 	}
+.subpage footer{
+	color: white;
+}
 /*.om {
 		display: inline-block;
 	}
