@@ -44,22 +44,11 @@ Förstasidan
 	.bilder {
 		padding-top: 20px;
 		padding-bottom: 20px
-	}
-	@media (max-width: 850px) {
-  	.bilder {
-			width: 600px;
 		
 	}
-}
-	@media (max-width: 450px) {
-  	.bilder {
-			width: 200px;
-		
-	}
-}
 	.under:hover {
-		width: 200px;  /* Hindrar storleken från att förändras när man håller över bilderna */
-		height: 100px;
+		width: 198px;  /* Hindrar storleken från att förändras när man håller över bilderna då ramen läggs till*/
+		height: 98px;
 		border: 1px solid white;
 	}
 	
@@ -69,13 +58,12 @@ Förstasidan
 		text-align: right;
 	}
 /*********************************************************
-+
-+Historia
-+
-+*********************************************************/
+
+Historia
+
+*********************************************************/
 .historia {
 	background: url(..//subpagebilder//bakhist.png);
-	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -133,7 +121,7 @@ Förstasidan
   width: 40%;
   float:left;
 }
-*, *:after{
+.ehistoria, .tävlingar:after{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -148,7 +136,7 @@ table {
 	border: 1px solid #403D38;
 	border-right: 0;
 	background-image: url("..//subpagebilder//trofe.jpg");
-	width: 769px;
+	width: 816px;
 	border-radius: 5px;
 	border-spacing: 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -173,8 +161,8 @@ th,td {
 	}
 /*-----Footer-----*/
 .hexagoner {
-		float: left;
-		padding-right: 20px;
+	float: left;
+	padding-right: 20px;
 	}
 .hex {
     float: left;
@@ -184,8 +172,7 @@ th,td {
 	font-size: 24px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #808080;						/* byt färg? */
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Skugga eller inte? */
-	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* alternativt text-shadow: 0 0 4px ;*/
 	}
 .top {
     width: 0;
